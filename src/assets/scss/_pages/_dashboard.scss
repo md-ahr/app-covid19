@@ -1,0 +1,222 @@
+#dashboard {
+    margin: 2.5rem auto;
+
+    .count__wrapper  {
+
+        &--title {
+            font-size: $titleSize;
+            font-family: $bold;
+            margin-bottom: 2.5rem;
+        }
+
+        &--case {
+            flex-basis: 31%;
+            border-color: $infoColor;
+
+            @include smallMobile {
+                flex-basis: 100%;
+                margin-bottom: 1.5em;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+
+            @include mediumLaptop {
+                flex-basis: 31%;
+                margin-bottom: 0;
+            }
+
+            .card-header {
+                font-size: $subtitleSize;
+                font-family: $medium;
+                background-color: $infoColor;
+                color: $whiteColor;
+            }
+
+            .card-body {
+                font-size: $countSize;
+                font-family: $semiBold;
+                color: $infoColor;
+            }
+        }
+
+        &--death {
+            @extend .count__wrapper--case;
+            border-color: $dangerColor;
+
+            .card-header {
+                background-color: $dangerColor;
+            }
+
+            .card-body {
+                color: $dangerColor;
+            }
+        }
+
+        &--recover {
+            @extend .count__wrapper--case;
+            border-color: $successColor;
+
+            .card-header {
+                background-color: $successColor;
+            }
+
+            .card-body {
+                color: $successColor;
+            }
+        }
+
+        &--active {
+            @extend .count__wrapper--case;
+            flex-basis: 48%;
+            border-color: $warnColor;
+
+            @include smallMobile {
+                flex-basis: 100%;
+                margin-bottom: 1.5em;
+
+                &:first-child {
+                    margin-top: -2em;
+                }
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+
+            @include mediumLaptop {
+                flex-basis: 48%;
+                margin-bottom: 0;
+
+                &:first-child {
+                    margin-top: 0;
+                }
+            }
+
+            .card-header {
+                background-color: $warnColor;
+            }
+
+            .card-body {
+                color: $warnColor;
+
+                .small-text {
+                    font-size: $bodySize;
+                }
+            }
+        }
+
+        &--closed {
+            @extend .count__wrapper--active;
+            border-color: $greyColor;
+
+            .card-header {
+                background-color: $greyColor;
+            }
+
+            .card-body {
+                color: $greyColor;
+            }
+        }
+
+        &--mild {
+
+            p {
+                color: lighten($primaryColor, 15);
+
+                &.number {
+                    font-size: 1.625rem;
+                }
+
+                &.text {
+                    font-size: 0.75rem;
+                }
+            }
+
+        }
+
+        &--critical {
+            @extend .count__wrapper--mild;
+
+            p {
+                color: lighten($dangerColor, 20);
+            }
+
+        }
+
+        &--discharge {
+            @extend .count__wrapper--mild;
+
+            p {
+                color: $successColor;
+            }
+
+        }
+
+        &--gone {
+            @extend .count__wrapper--mild;
+
+            p {
+                color: $dangerColor;
+            }
+
+        }
+
+        &--tbl {
+
+            .text-loading {
+                font-size: $defaultSize;
+                font-family: $semiBold;
+                color: $blackColor;
+            }
+
+            .table {
+
+                th, td {
+                    vertical-align: middle;
+                    font-size: $bodySize;
+                    color: $blackColor;
+                }
+
+                tbody {
+
+                    tr {
+
+                        &:first-child {
+                            background-color: #DFDFDF;
+
+                            td {
+                                font-family: $semiBold;
+
+                                &:first-child {
+                                    opacity: 0;
+                                }
+                            }
+                        }
+
+                        &.green {
+                            background-color: lighten($successColor, 50);
+                        }
+
+                        &.grey {
+                            background-color: lighten($greyColor, 50);
+                        }
+
+                        td {
+                            font-family: $medium;
+
+                            &.new-case {
+                                background-color: lighten($warnColor, 25);
+                            }
+
+                            &.new-death {
+                                background-color: lighten($dangerColor, 40);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

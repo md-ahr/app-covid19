@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $regular;
+    font-size: $bodySize;
+    background-color: $whiteColor;
+    color: $blackColor;
+
+    a {
+        text-decoration: none;
+    }
+
+    ul {
+
+        li {
+            list-style: none;
+        }
+    }
+}

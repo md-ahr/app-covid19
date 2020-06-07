@@ -1,0 +1,83 @@
+$sm-mobile-width: (min-width: 320px);
+$md-mobile-width: (min-width: 360px);
+$lg-mobile-width: (min-width: 425px);
+$xl-mobile-width: (min-width: 600px);
+$tablet-width: (min-width: 768px);
+$tablet-width: (min-width: 768px);
+
+$medium-laptop-width: (min-width: 1200px);
+$large-laptop-width: (min-width: 1300px);
+$medium-desktop-width: (min-width: 1400px);
+$large-desktop-width: (min-width: 1600px);
+
+/* ----- Less Than 5 Inchi, 320px or Greater ----- */
+
+@mixin smallMobile {
+    @media #{$sm-mobile-width} {
+        @content;
+    }
+}
+
+/* ----- 5.0 To 5.5 Inchi, 360px or Greater ----- */
+
+@mixin mediumMobile {
+    @media #{$md-mobile-width} {
+        @content;
+    }
+}
+
+/* -----  Greater Than 5.5 Inchi, 425px or Greater ----- */
+
+@mixin largeMobile {
+    @media #{$lg-mobile-width} {
+        @content;
+    }
+}
+
+/* -----  Greater Than 6.0 Inchi, 600px or Greater ----- */
+
+@mixin bigMobile {
+    @media #{$xl-mobile-width} {
+        @content;
+    }
+}
+
+/* -----  Tablet Width 768px or Greater ----- */
+
+@mixin tablet {
+    @media #{$tablet-width} {
+        @content;
+    }
+}
+
+/* ----- Laptop Size 1200px or Greater ----- */
+
+@mixin mediumLaptop {
+    @media #{$medium-laptop-width} {
+        @content;
+    }
+}
+
+/* ----- Small Desktop or Large Laptop Size 1350px or Greater ----- */
+
+@mixin largeLaptop {
+    @media #{$large-laptop-width} {
+        @content;
+    }
+}
+
+/* ----- Desktop Size 1400px or Greater ----- */
+
+@mixin mediumDesktop {
+    @media #{$medium-desktop-width} {
+        @content;
+    }
+}
+
+/* ----- Desktop Size 1600px or Greater ----- */
+
+@mixin largeDesktop {
+    @media #{$large-desktop-width} {
+        @content;
+    }
+}
