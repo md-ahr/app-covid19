@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.a64b9b51.chunk.css",
-    "main.js": "/static/js/main.3a9ecb81.chunk.js",
-    "main.js.map": "/static/js/main.3a9ecb81.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.fc82638d.js",
-    "runtime-main.js.map": "/static/js/runtime-main.fc82638d.js.map",
-    "static/css/2.b450f4ca.chunk.css": "/static/css/2.b450f4ca.chunk.css",
-    "static/js/2.fafb7839.chunk.js": "/static/js/2.fafb7839.chunk.js",
-    "static/js/2.fafb7839.chunk.js.map": "/static/js/2.fafb7839.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.c5ddefcf160d0d8baa5062e67894c875.js": "/precache-manifest.c5ddefcf160d0d8baa5062e67894c875.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.b450f4ca.chunk.css.map": "/static/css/2.b450f4ca.chunk.css.map",
-    "static/css/main.a64b9b51.chunk.css.map": "/static/css/main.a64b9b51.chunk.css.map",
-    "static/js/2.fafb7839.chunk.js.LICENSE.txt": "/static/js/2.fafb7839.chunk.js.LICENSE.txt",
-    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff",
-    "static/media/app.scss": "/static/media/montserrat-thin.43dd5b7a.ttf"
+    "main.css": "/md-ahr/app-covid19.git/static/css/main.24c3e593.chunk.css",
+    "main.js": "/md-ahr/app-covid19.git/static/js/main.eca58590.chunk.js",
+    "main.js.map": "/md-ahr/app-covid19.git/static/js/main.eca58590.chunk.js.map",
+    "runtime-main.js": "/md-ahr/app-covid19.git/static/js/runtime-main.970f9ec0.js",
+    "runtime-main.js.map": "/md-ahr/app-covid19.git/static/js/runtime-main.970f9ec0.js.map",
+    "static/css/2.74101987.chunk.css": "/md-ahr/app-covid19.git/static/css/2.74101987.chunk.css",
+    "static/js/2.fafb7839.chunk.js": "/md-ahr/app-covid19.git/static/js/2.fafb7839.chunk.js",
+    "static/js/2.fafb7839.chunk.js.map": "/md-ahr/app-covid19.git/static/js/2.fafb7839.chunk.js.map",
+    "index.html": "/md-ahr/app-covid19.git/index.html",
+    "precache-manifest.9e122ea998ce88fe6487f67762d98a31.js": "/md-ahr/app-covid19.git/precache-manifest.9e122ea998ce88fe6487f67762d98a31.js",
+    "service-worker.js": "/md-ahr/app-covid19.git/service-worker.js",
+    "static/css/2.74101987.chunk.css.map": "/md-ahr/app-covid19.git/static/css/2.74101987.chunk.css.map",
+    "static/css/main.24c3e593.chunk.css.map": "/md-ahr/app-covid19.git/static/css/main.24c3e593.chunk.css.map",
+    "static/js/2.fafb7839.chunk.js.LICENSE.txt": "/md-ahr/app-covid19.git/static/js/2.fafb7839.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/md-ahr/app-covid19.git/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/app.scss": "/md-ahr/app-covid19.git/static/media/montserrat-thin.43dd5b7a.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.fc82638d.js",
-    "static/css/2.b450f4ca.chunk.css",
+    "static/js/runtime-main.970f9ec0.js",
+    "static/css/2.74101987.chunk.css",
     "static/js/2.fafb7839.chunk.js",
-    "static/css/main.a64b9b51.chunk.css",
-    "static/js/main.3a9ecb81.chunk.js"
+    "static/css/main.24c3e593.chunk.css",
+    "static/js/main.eca58590.chunk.js"
   ]
 }
