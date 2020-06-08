@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 const DataTable = () => {
 
@@ -45,7 +46,7 @@ const DataTable = () => {
                         items.map((item, index) => (
                             <tr key={index} className={(item.active === 0 && item.deaths === 0) ? 'green' : ''}>
                                 <td>{index}</td>
-                                <td>{item.country.toLocaleString()}</td>
+                                <td><Link to={"countries/"+item.country} target="_blank">{item.country.toLocaleString()}</Link></td>
                                 <td>{item.cases.toLocaleString()}</td>
                                 {(item.todayCases > 0) ? <td className="new-case">{item.todayCases.toLocaleString()}</td> : <td></td>}
                                 {(item.deaths > 0) ? <td>{item.deaths.toLocaleString()}</td> : <td></td>}

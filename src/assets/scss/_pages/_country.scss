@@ -1,0 +1,165 @@
+#country {
+    margin: 2.5rem auto;
+
+    .title {
+        font-size: $titleSize;
+        font-family: $semiBold;
+        color: $blackColor;
+    }
+
+    .count__wrapper {
+
+        &--title {
+            font-size: $subtitleSize;
+            font-family: $medium;
+            color: $blackColor
+        }
+
+        &--number {
+            font-size: $countSize;
+            font-family: $semiBold;
+
+            &.case {
+                color: $infoColor;
+            }
+
+            &.death {
+                color: $dangerColor;
+            }
+
+            &.recover {
+                color: $successColor;
+            }
+        }
+
+        &--case {
+
+        }
+
+        &--death {
+
+        }
+
+        &--recover {
+
+        }
+
+        &--active {
+            flex-basis: 48%;
+            border-color: $warnColor;
+
+            @include smallMobile {
+                flex-basis: 100%;
+                margin-bottom: 1.5em;
+
+                &:first-child {
+                    margin-top: -2em;
+                }
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+
+            @include mediumLaptop {
+                flex-basis: 48%;
+                margin-bottom: 0;
+
+                &:first-child {
+                    margin-top: 0;
+                }
+            }
+
+            .card-header {
+                font-size: $subtitleSize;
+                font-family: $medium;
+                background-color: $warnColor;
+                color: $whiteColor;
+            }
+
+            .card-body {
+                font-size: $countSize;
+                font-family: $semiBold;
+                color: $warnColor;
+
+                .small-text {
+                    font-size: $bodySize;
+                }
+            }
+        }
+
+        &--closed {
+            @extend .count__wrapper--active;
+            border-color: $greyColor;
+
+            .card-header {
+                background-color: $greyColor;
+            }
+
+            .card-body {
+                color: $greyColor;
+            }
+        }
+
+        &--mild {
+
+            p {
+                color: lighten($primaryColor, 15);
+
+                &.number {
+                    font-size: 1.625rem;
+                }
+
+                &.text {
+                    font-size: 0.75rem;
+                }
+            }
+
+        }
+
+        &--critical {
+            @extend .count__wrapper--mild;
+
+            p {
+                color: lighten($dangerColor, 20);
+            }
+
+        }
+
+        &--discharge {
+            @extend .count__wrapper--mild;
+
+            p {
+                color: $successColor;
+            }
+
+        }
+
+        &--gone {
+            @extend .count__wrapper--mild;
+
+            p {
+                color: $dangerColor;
+            }
+
+        }
+    }
+
+    .text-loading {
+        font-size: $defaultSize;
+        font-family: $semiBold;
+        color: $blackColor;
+    }
+
+    .table {
+
+        tbody {
+
+            th, td {
+                font-size: $bodySize;
+                font-family: $medium;
+                padding-left: 1.625em;
+            }
+        }
+    }
+}
