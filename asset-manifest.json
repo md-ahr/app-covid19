@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/app-covid19/static/css/main.50f2d07a.chunk.css",
-    "main.js": "/app-covid19/static/js/main.cef1a086.chunk.js",
-    "main.js.map": "/app-covid19/static/js/main.cef1a086.chunk.js.map",
+    "main.css": "/app-covid19/static/css/main.57b4e48e.chunk.css",
+    "main.js": "/app-covid19/static/js/main.b4cae6ee.chunk.js",
+    "main.js.map": "/app-covid19/static/js/main.b4cae6ee.chunk.js.map",
     "runtime-main.js": "/app-covid19/static/js/runtime-main.bad3a7e2.js",
     "runtime-main.js.map": "/app-covid19/static/js/runtime-main.bad3a7e2.js.map",
     "static/css/2.4c2aa996.chunk.css": "/app-covid19/static/css/2.4c2aa996.chunk.css",
-    "static/js/2.fafb7839.chunk.js": "/app-covid19/static/js/2.fafb7839.chunk.js",
-    "static/js/2.fafb7839.chunk.js.map": "/app-covid19/static/js/2.fafb7839.chunk.js.map",
+    "static/js/2.5f84ed3a.chunk.js": "/app-covid19/static/js/2.5f84ed3a.chunk.js",
+    "static/js/2.5f84ed3a.chunk.js.map": "/app-covid19/static/js/2.5f84ed3a.chunk.js.map",
     "index.html": "/app-covid19/index.html",
-    "precache-manifest.2bb51df0f90f9fd2a8e03063b018c07b.js": "/app-covid19/precache-manifest.2bb51df0f90f9fd2a8e03063b018c07b.js",
+    "precache-manifest.7e69c23b877de5875d192c3dfde8a411.js": "/app-covid19/precache-manifest.7e69c23b877de5875d192c3dfde8a411.js",
     "service-worker.js": "/app-covid19/service-worker.js",
     "static/css/2.4c2aa996.chunk.css.map": "/app-covid19/static/css/2.4c2aa996.chunk.css.map",
-    "static/css/main.50f2d07a.chunk.css.map": "/app-covid19/static/css/main.50f2d07a.chunk.css.map",
-    "static/js/2.fafb7839.chunk.js.LICENSE.txt": "/app-covid19/static/js/2.fafb7839.chunk.js.LICENSE.txt",
+    "static/css/main.57b4e48e.chunk.css.map": "/app-covid19/static/css/main.57b4e48e.chunk.css.map",
+    "static/js/2.5f84ed3a.chunk.js.LICENSE.txt": "/app-covid19/static/js/2.5f84ed3a.chunk.js.LICENSE.txt",
     "static/media/font-awesome.min.css": "/app-covid19/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/app.scss": "/app-covid19/static/media/montserrat-thin.43dd5b7a.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.bad3a7e2.js",
     "static/css/2.4c2aa996.chunk.css",
-    "static/js/2.fafb7839.chunk.js",
-    "static/css/main.50f2d07a.chunk.css",
-    "static/js/main.cef1a086.chunk.js"
+    "static/js/2.5f84ed3a.chunk.js",
+    "static/css/main.57b4e48e.chunk.css",
+    "static/js/main.b4cae6ee.chunk.js"
   ]
 }
