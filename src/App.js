@@ -6,7 +6,7 @@ import Country from './components/country';
 const App = () => {
 
   return (
-    <Router>
+    <Router basename={window.location.pathname || ''}>
       <Switch>
         <Route path="/" exact component={Dashboard} />
         <Route path="/countries/:country" component={Country} />
